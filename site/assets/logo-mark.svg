@@ -1,0 +1,9 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Blessed Group">
+  <rect width="120" height="120" rx="20" fill="#e52b50"></rect>
+  
+  <g fill="#ffffff">
+    <rect x="34" y="32" width="14" height="56" rx="2"></rect>
+    <path d="M52 32h22a16 16 0 0 1 0 32H52V52h20a4 4 0 0 0 0-8H52z"></path>
+    <path d="M52 60h22a16 16 0 0 1 0 28H52V76h20a4 4 0 0 0 0-8H52z"></path>
+  </g>
+</svg>

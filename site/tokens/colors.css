@@ -1,0 +1,66 @@
+/* ============================================================
+   BLESSED GROUP — COLOR TOKENS
+   Brand red (from logo) + slate neutrals. Architecture &
+   construction firm, Asunción Paraguay. Confident, structural.
+   ============================================================ */
+:root {
+  /* ---- Brand: Blessed Red (logo) ---- */
+  --blessed-red-50:  #fef2f3;
+  --blessed-red-100: #fde6e8;
+  --blessed-red-200: #fad0d5;
+  --blessed-red-300: #f6a9b3;
+  --blessed-red-400: #f0788b;
+  --blessed-red-500: #e52b50; /* primary */
+  --blessed-red-600: #d11f42; /* hover/active */
+  --blessed-red-700: #b01838; /* dark */
+  --blessed-red-800: #921634;
+  --blessed-red-900: #7c1631;
+
+  /* ---- Neutrals: Slate ---- */
+  --slate-50:  #f8fafc;
+  --slate-100: #f1f5f9;
+  --slate-200: #e2e8f0;
+  --slate-300: #cbd5e1;
+  --slate-400: #94a3b8;
+  --slate-500: #64748b;
+  --slate-600: #475569;
+  --slate-700: #334155;
+  --slate-800: #1e293b;
+  --slate-900: #0f172a; /* dark surfaces: hero, footer, process */
+  --slate-950: #020617;
+
+  --white: #ffffff;
+  --black: #000000;
+
+  /* ---- Semantic aliases ---- */
+  --brand:            var(--blessed-red-500);
+  --brand-hover:      var(--blessed-red-600);
+  --brand-active:     var(--blessed-red-700);
+  --brand-soft:       var(--blessed-red-50);
+  --brand-soft-bd:    var(--blessed-red-100);
+
+  --text-strong:      var(--slate-900);
+  --text-body:        var(--slate-600);
+  --text-muted:       var(--slate-400);
+  --text-on-brand:    var(--white);
+  --text-on-dark:     var(--white);
+  --text-on-dark-dim: var(--slate-300);
+
+  --surface-page:     var(--white);
+  --surface-subtle:   var(--slate-50);
+  --surface-card:     var(--white);
+  --surface-dark:     var(--slate-900);
+  --surface-brand:    var(--blessed-red-500);
+
+  --border-subtle:    var(--slate-200);
+  --border-default:   var(--slate-300);
+  --border-strong:    var(--slate-900);
+  --border-brand:     var(--blessed-red-500);
+  --border-on-dark:   rgba(255, 255, 255, 0.12);
+
+  --focus-ring:       var(--blessed-red-500);
+
+  /* Overlay gradient used on hero / image cards */
+  --overlay-dark: linear-gradient(180deg, rgba(15,23,42,0.30) 0%, rgba(15,23,42,0.85) 100%); /* @kind color */
+  --overlay-brand: linear-gradient(135deg, var(--blessed-red-600) 0%, var(--blessed-red-800) 100%);
+}

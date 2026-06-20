@@ -1,0 +1,11 @@
+/* ============================================================
+   BLESSED GROUP — WEBFONTS
+   NOTE: the source project used Tailwind's default system stack
+   (no custom font specified). For the design system we adopt a
+   deliberate, architectural pairing — flag for the user.
+     • Archivo        — display / headings (wide grotesque, structural)
+     • Hanken Grotesk — body / UI text (neutral, legible)
+   Loaded from Google Fonts. Swap for self-hosted binaries when
+   brand fonts are confirmed.
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');

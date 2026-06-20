@@ -1,0 +1,13 @@
+# Render Blueprint — sitio estático Blessed Group
+# Coloca este archivo en la RAÍZ del repo (junto a index.html).
+services:
+  - type: web
+    name: blessed-group-web
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: true
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

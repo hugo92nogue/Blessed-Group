@@ -1,0 +1,48 @@
+/* ============================================================
+   BLESSED GROUP — SPACING, RADII, SHADOWS, LAYOUT
+   ============================================================ */
+:root {
+  /* ---- Spacing scale (4px base) ---- */
+  --space-1:  0.25rem;  /* 4  */
+  --space-2:  0.5rem;   /* 8  */
+  --space-3:  0.75rem;  /* 12 */
+  --space-4:  1rem;     /* 16 */
+  --space-5:  1.25rem;  /* 20 */
+  --space-6:  1.5rem;   /* 24 — card padding */
+  --space-8:  2rem;     /* 32 — card padding lg */
+  --space-10: 2.5rem;   /* 40 */
+  --space-12: 3rem;     /* 48 */
+  --space-16: 4rem;     /* 64 */
+  --space-20: 5rem;     /* 80 — section padding */
+  --space-24: 6rem;     /* 96 — section padding lg */
+
+  --section-y:   var(--space-20);
+  --card-pad:    var(--space-6);
+  --card-pad-lg: var(--space-8);
+
+  /* ---- Radii ---- */
+  --radius-sm:   0.375rem; /* 6  — inputs, badges */
+  --radius-md:   0.5rem;   /* 8  — buttons (rounded-lg) */
+  --radius-lg:   0.75rem;  /* 12 — cards (rounded-xl) */
+  --radius-xl:   1rem;     /* 16 — feature cards (rounded-2xl) */
+  --radius-full: 9999px;   /* pills, avatars, dots */
+
+  /* ---- Shadows (Tailwind-derived) ---- */
+  --shadow-sm:  0 1px 2px 0 rgba(15,23,42,0.05);
+  --shadow-md:  0 4px 6px -1px rgba(15,23,42,0.10), 0 2px 4px -2px rgba(15,23,42,0.10);
+  --shadow-lg:  0 10px 15px -3px rgba(15,23,42,0.10), 0 4px 6px -4px rgba(15,23,42,0.10);
+  --shadow-xl:  0 20px 25px -5px rgba(15,23,42,0.12), 0 8px 10px -6px rgba(15,23,42,0.10);
+  --shadow-2xl: 0 25px 50px -12px rgba(15,23,42,0.30);
+  --shadow-brand: 0 12px 30px -8px rgba(229,43,80,0.45); /* red glow on hover */
+
+  /* ---- Layout ---- */
+  --container:    1280px;
+  --container-px: var(--space-6);
+
+  /* ---- Motion (transition-all duration-300/500, ease) ---- */
+  --ease-out:  cubic-bezier(0.16, 1, 0.3, 1); /* @kind other */
+  --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);  /* @kind other */
+  --dur-fast:  200ms; /* @kind other */
+  --dur-base:  300ms; /* @kind other */
+  --dur-slow:  500ms; /* @kind other */
+}

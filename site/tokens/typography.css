@@ -1,0 +1,47 @@
+/* ============================================================
+   BLESSED GROUP — TYPOGRAPHY TOKENS
+   ============================================================ */
+:root {
+  /* ---- Families ---- */
+  --font-display: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --font-body:    'Hanken Grotesk', system-ui, -apple-system, Segoe UI, sans-serif;
+  --font-mono:    'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* ---- Weights ---- */
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+  --weight-extra:    800;
+  --weight-black:    900;
+
+  /* ---- Type scale (display = headings, text = body) ---- */
+  --fs-display-2xl: 4.5rem;  /* 72 — hero */
+  --fs-display-xl:  3.5rem;  /* 56 — page title */
+  --fs-display-lg:  2.75rem; /* 44 — section heading */
+  --fs-display-md:  2rem;    /* 32 — sub-heading */
+  --fs-display-sm:  1.5rem;  /* 24 — card title */
+
+  --fs-xl:   1.25rem;  /* 20 — lead body */
+  --fs-lg:   1.125rem; /* 18 */
+  --fs-base: 1rem;     /* 16 — body */
+  --fs-sm:   0.875rem; /* 14 — small / labels */
+  --fs-xs:   0.75rem;  /* 12 — eyebrow / meta */
+
+  /* ---- Line heights ---- */
+  --lh-tight:   1.05; /* @kind other */
+  --lh-snug:    1.2;  /* @kind other */
+  --lh-normal:  1.5;  /* @kind other */
+  --lh-relaxed: 1.7;  /* @kind other */
+
+  /* ---- Letter spacing ---- */
+  --tracking-tight:  -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide:   0.08em;  /* eyebrows / overline */
+  --tracking-wider:  0.16em;
+
+  /* ---- Semantic roles ---- */
+  --text-eyebrow-size:   var(--fs-sm);
+  --text-eyebrow-weight: var(--weight-bold);
+  --text-eyebrow-track:  var(--tracking-wide);
+}
